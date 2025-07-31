@@ -1,0 +1,28 @@
+{
+  "name": "teste_front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "v10.9.2"
+  },
+  "scripts": {
+    "cypress:web":"npx cypress open",
+    "cypress:headless":"npx cypress run --browser electron"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusthedev/Teste_Front.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusthedev/Teste_Front/issues"
+  },
+  "homepage": "https://github.com/matheusthedev/Teste_Front#readme",
+  "dependencies": {
+    "cypress": "^14.5.3"
+  }
+}
